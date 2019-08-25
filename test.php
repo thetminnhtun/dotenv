@@ -2,6 +2,6 @@
 
 include 'vendor/autoload.php';
 
-TMH\Dotenv::create();
+dotenv();
 
-echo getenv('APP_NAME');
+echo env('APP_NAME');

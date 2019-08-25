@@ -21,9 +21,9 @@ APP_URL=http://localhost
 
 include 'vendor/autoload.php';
 
-TMH\Dotenv::create();
+dotenv();
 
-echo getenv('APP_NAME');
+echo env('APP_NAME');
 ```
 
 - install `dovenv` package by following command
